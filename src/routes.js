@@ -11,7 +11,7 @@ function RoutesApp() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/projeto_filmes" element={<Home />} />
         <Route path="/filme/:id" element={<Filme />} />
         <Route path="/favoritos" element={<Favoritos />} />
         <Route path="*" element={<Erro />} />

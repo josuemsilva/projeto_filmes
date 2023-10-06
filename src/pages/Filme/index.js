@@ -24,7 +24,7 @@ function Filme() {
           setLoading(false);
         })
         .catch(() => {
-          navigate("/", { replace: true });
+          navigate("/projeto_filmes", { replace: true });
           return;
         });
     }
